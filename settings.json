@@ -1,0 +1,11 @@
+{
+    "editor.fontSize": 17,
+    "editor.fontFamily": "Inconsolata, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "editor.formatOnSave": true,
+    "terminal.integrated.rendererType": "dom",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "diffEditor.renderSideBySide": false,
+    "window.menuBarVisibility": "toggle"
+}
