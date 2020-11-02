@@ -1,9 +1,14 @@
 {
-    "workbench.colorTheme": "One Dark Pro",
     "editor.fontSize": 16,
     "editor.formatOnSave": true,
-    "window.menuBarVisibility": "toggle",
-    "window.titleBarStyle": "custom",
     "editor.fontFamily": "'inconsolas', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "window.zoomLevel": 1.5
+    "window.zoomLevel": 1.0,
+    "workbench.iconTheme": "vscode-icons",
+    "window.menuBarVisibility": "visible",
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "Yaru Dark Pumpkin",
+    "editor.minimap.renderCharacters": false,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorWidth": 2
 }
