@@ -1,14 +1,142 @@
 {
-    "editor.fontSize": 16,
-    "editor.formatOnSave": true,
-    "editor.fontFamily": "'inconsolas', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "window.zoomLevel": 1.0,
-    "workbench.iconTheme": "vscode-icons",
-    "window.menuBarVisibility": "visible",
-    "window.titleBarStyle": "custom",
-    "workbench.colorTheme": "Yaru Dark Pumpkin",
-    "editor.minimap.renderCharacters": false,
-    "editor.cursorBlinking": "expand",
-    "editor.cursorSmoothCaretAnimation": true,
-    "editor.cursorWidth": 2
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13.5,
+  "editor.fontFamily": "'Cascadia Code', 'Offlig', 'Fira Code', 'Source Code Pro for Powerline'",
+  "editor.fontWeight": "600",
+  "workbench.startupEditor": "none",
+  "editor.bracketPairColorization.enabled": true,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.guides.bracketPairs": true,
+  "editor.suggestSelection": "first",
+  "terminal.explorerKind": "external",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  // "gitlens.hovers.annotations.enabled": false,
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.linkedEditing": true,
+  "terminal.integrated.fontFamily": "'Cascadia Code', 'SourceCodePro+Powerline+Awesome Regular'",
+  "debug.console.fontSize": 11,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1",
+    "Q_NEW_SESSION": "1"
+  },
+  "editor.lineHeight": 2,
+  "editor.renderWhitespace": "boundary",
+  "editor.cursorBlinking": "expand",
+  "editor.inlineSuggest.enabled": true,
+  "settingsSync.ignoredSettings": ["terminal.external.osxExec"],
+  "editor.minimap.showSlider": "always",
+  "security.workspace.trust.untrustedFiles": "open",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.letterSpacing": 0.3,
+  "debug.javascript.autoAttachFilter": "disabled",
+  "window.zoomLevel": -0.3,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.productIconTheme": "fluent-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  // "breadcrumbs.enabled": false,
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.minimap.renderCharacters": false,
+  "terminal.integrated.persistentSessionReviveProcess": "onExitAndWindowClose",
+  "activitusbar.views": [
+    {
+      "name": "explorer",
+      "codicon": "explorer-view-icon"
+    },
+    {
+      "name": "scm",
+      "codicon": "source-control-view-icon"
+    },
+    {
+      "name": "extensions",
+      "codicon": "extensions-view-icon"
+    },
+    {
+      "name": "debug",
+      "codicon": "run-view-icon"
+    }
+  ],
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.scrollback": 5000,
+  "files.exclude": {
+    "**/.DS_Store": false
+  },
+  "workbench.colorCustomizations": {
+    "terminal.background": "#00000000"
+  },
+  "editor.stickyScroll.scrollWithEditor": false,
+  "workbench.tree.enableStickyScroll": false,
+  "editor.hover.sticky": false,
+  "editor.stickyScroll.enabled": false,
+  "workbench.colorTheme": "Kanagawa",
+  "window.systemColorTheme": "dark",
+  "workbench.settings.applyToAllProfiles": [
+    "workbench.colorCustomizations"
+  ],
+  "activitusbar.alignment": "Right",
+  "workbench.iconTheme": "material-icon-theme",
+  "breadcrumbs.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  // "window.commandCenter": false,
+  "terminal.integrated.gpuAcceleration": "off",
+  "zenMode.centerLayout": false,
+  "zenMode.hideLineNumbers": false,
+  "window.titleBarStyle": "native",
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 11,
+      "y": 9
+    },
+    "opacity": 1,
+    "vibrancy": "dark",
+    "frame": false,
+  },
+  "apc.header": {
+    "height": 36
+  },
+  "apc.listRow": {
+    "height": 24
+  },
+  "apc.imports": [
+    "/Users/javiertobar/dev/vscode-script.js",
+    "/Users/javiertobar/dev/vscode-script.css",
+  ],
+  "apc.font.family": "'Cascadia Code'",
+  "apc.stylesheet": {
+    ".title-label > h2": "visibility: hidden",
+    ".editor-actions": "display: none",
+    ".editor .title": "background: transparent !important",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 0 8px",
+    ".pane-body": "padding: 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
+    ".slider": "position: absolute !important; right: 1px !important; width: 1px !important; background: #bc9abc !important; left: auto !important;",
+  },
+  "update.mode": "manual",
+  "window.commandCenter": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.activityBar.location": "hidden",
 }
